@@ -4531,6 +4531,22 @@ body:not(.touch-device) .owl-item:hover .details__preview {
   margin-bottom: 32px;
 }
 
+.project-link {
+  color: #007bff; /* Change to your desired link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Add bold font weight */
+  transition: color 0.1s; /* Add smooth color transition on hover */
+  cursor: pointer;
+  /* border-bottom: 2px solid #007bff; */
+  padding: 5px 10px;
+}
+
+.project-link:hover {
+  color: #ffffff; /* Change to your desired link color on hover */
+  border-bottom: 2px solid #ffffff;
+  background-color: #000000;
+}
+
 .product__head {
   padding: 192px 0 128px;
 }
